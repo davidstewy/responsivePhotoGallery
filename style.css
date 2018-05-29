@@ -1,0 +1,50 @@
+
+@media (min-width:800px) {
+    body {
+        display:flex;
+    }
+
+    .titleBox {
+        flex: 33%;
+        max-width: 33%;
+
+    }
+
+    .pictures {
+        display: flex;
+        
+    }
+}
+
+body {
+    background: black;
+}
+
+.titleBox {
+    width: 100vh;
+    background: #203e5a;
+    border: solid black;
+    margin-bottom: 1vh;
+}
+
+.pictures {
+    width: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.pictures img {
+    flex: 45vh;
+    /* max-width: 45vh; */
+    margin: 2vh;
+    margin-top: 0;
+    /* justify-content: space-between; */
+    
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 8vh;
+}
