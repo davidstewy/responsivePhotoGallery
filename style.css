@@ -21,21 +21,21 @@ body {
 }
 
 .titleBox {
-    width: 100vh;
+    width: 98vw;
     background: #203e5a;
     border: solid black;
     margin-bottom: 1vh;
 }
 
 .pictures {
-    width: 100vh;
+    /* width: 100vh; */
     display: flex;
     flex-wrap: wrap;
 
 }
 
 .pictures img {
-    flex: 45vh;
+    /* flex: 45vh; */
     /* max-width: 45vh; */
     margin: 2vh;
     margin-top: 0;
@@ -46,5 +46,5 @@ body {
 p {
     color: white;
     text-align: center;
-    font-size: 8vh;
+    font-size: 6vh;
 }
